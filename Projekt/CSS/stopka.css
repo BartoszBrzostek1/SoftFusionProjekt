@@ -17,7 +17,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 650px;
+    position: relative; left: 650px; top: -15px;
     display: inline-block;
   }
 
@@ -25,7 +25,7 @@
     width: 156.6px;
     height: 70px;
     object-fit: contain;
-    position: relative; left: 650px; top: 10px;
+    position: relative; left: 650px; top: 15px;
     
   }
 
@@ -41,7 +41,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 800px;
+    position: relative; left: 800px; top: -15px;
     display: inline-block;
   }
 
@@ -49,5 +49,5 @@
     width: 97px;
     height: 69px;
     object-fit: contain;
-    position: relative; left: 800px; top: 10px;
+    position: relative; left: 800px; top: 15px;
   }

@@ -1,7 +1,9 @@
+
 .Rectangle-1 {
     width: 1183.2px;
     height: 934.1px;
-    object-fit: contain;
+    object-fit: none;
+    object-position: 55% 70%;
     position: relative; top: 0px;
     float: right;
   }
@@ -424,4 +426,20 @@
     text-align: center;
     color: #ffffff;
     position: relative; top: 40px;
+  }
+
+  #wynikBMI {
+    width: 150px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffffff;
+    position: relative; left: 360px; top: 530px;
+
   }

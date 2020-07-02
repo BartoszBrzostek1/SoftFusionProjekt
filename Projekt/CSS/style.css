@@ -1,10 +1,16 @@
+.trojkatDoRozwijania {
 
+  width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 16px solid #897ac8;
+  display: inline-block;
+}
 
-.to_beowe {
-    width: 1919.6px;
-    height: 2260px;
-    background-color: #eee8e6;
-  }
+body{
+  background-color: #eee8e6
+}
 
 .STRONA-GWNA {
     width: 182px;
@@ -18,8 +24,8 @@
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 600px; top: 50px;
-    display: inline-block;
+    position: absolute; left: 682px; top: 60px;
+    
     
   }
 
@@ -35,8 +41,8 @@
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 650px; top: 50px;
-    display: inline-block;
+    position: absolute; left: 908px; top: 60px;
+    
   }
 
 .DLA-PACJENTA {
@@ -51,9 +57,57 @@
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 700px; top: 50px;
-    display: inline-block;
+    position: absolute; left: 1085px; top: 60px;
+  }
+  .list {
+    width: 180px;
+    height: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #4d4d4d;
+    position: absolute; left: 1085px; top: 60px;
+    cursor: pointer;
+  }
+
+  .list:hover .hover-list {
+    max-height: 400px;
+  }
+  .hover-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    left: 0;
+    top: 120%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .25s ease-in;
+    width: 152px;
+    height: 115px;
+    opacity: 0.7;
+    background-color: #ffffff;
+    z-index: 2;
     
+  }
+  .hover-list div {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+  }
+
+  .kreskaList{
+
+    border-bottom: 1px solid #897ac8;
+    position: absolute; left: 1px;
+
   }
 
 .SPECJALICI {
@@ -68,8 +122,8 @@
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 750px; top: 50px;
-    display: inline-block;
+    position: absolute; left: 1293px; top: 60px;
+    
   }
 
 .HISTORIE-PACJENTW {
@@ -84,8 +138,8 @@
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: relative; left: 800px; top: 50px;
-    display: inline-block;
+    position: absolute; left: 1462px; top: 60px;
+    
   }
 
   .Zaznaczenie{
