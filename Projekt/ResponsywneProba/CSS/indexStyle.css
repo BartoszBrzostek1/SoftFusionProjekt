@@ -1,0 +1,445 @@
+
+.Rectangle-1 {
+    width: 1183.2px;
+    height: 934.1px;
+    object-fit: none;
+    object-position: 55% 70%;
+    position: relative; top: 0px;
+    float: right;
+  }
+
+.Kalkulator-BMI {
+    width: 350px;
+    height: 54px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 41px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f65b1;
+    position: relative; left: 330px; top: 370px;
+  }
+
+.Oblicz-swj-wskanik-BMI {
+    width: 328.2px;
+    height: 39.6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26.4px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: 1.32px;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; left: 330px; top: 400px;
+  }
+
+.Pe {
+    width: 200px;
+    height: 40.4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; left: 330px; top: 430px;
+    
+  }
+
+.Waga {
+    width: 300px;
+    height: 40.4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; left: 330px; top: 460px;
+    
+  }
+
+.Wzrost {
+    width: 300px;
+    height: 40.4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; left: 330px; top: 480px;
+  }
+
+.Rectangle-4 {
+    width: 208.2px;
+    height: 54.4px;
+    background-color: #897ac8;
+    position: relative; left: 360px; top: 510px;
+  }
+
+.OBLICZ-BMI {
+    width: 150px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffffff;
+    position: relative; left: 40px; top: 15px;
+  }
+
+  .Rectangle-51 {
+    width: 676px;
+    height: 1000px;
+    background-color: #f8f2f0;
+    position: relative; left: 220px; top: 700px;
+    
+  }
+
+  .Napis1{
+    width: 1500px;
+    height: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; left: 960px; top: 840px;
+    
+  }
+
+  .Napis2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #897ac8;
+    position: relative; top: 50px;
+  }
+
+.Napis3{
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f5f5fdc;
+    position: relative; top: 100px;
+}
+
+.Napis4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #897ac8;
+    position: relative; top: 150px;
+}
+
+.Napis5{
+    width: 737px;
+    height: 128px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f65b1;
+    position: relative; top: 220px;
+}
+
+.Ellipse-1 {
+    width: 87px;
+    height: 88px;
+    background-color: #a5cebb;
+    border-radius: 50%;
+    position: relative; top: 35px; left: 30px;
+    display: inline-block;
+  }
+
+.Ellipse-2 {
+    width: 87px;
+    height: 88px;
+    background-color: #a5cebb;
+    border-radius: 50%;
+    position: relative; top: 35px; left: 60px;
+    display: inline-block;
+  }
+
+.Ellipse-3 {
+    width: 87px;
+    height: 88px;
+    background-color: #a5cebb;
+    border-radius: 50%;
+    position: relative; top: 35px; left: 90px;
+    display: inline-block;
+  }
+
+.Ellipse-4 {
+    width: 87px;
+    height: 88px;
+    background-color: #a5cebb;
+    border-radius: 50%;
+    position: relative; top: 35px; left: 120px;
+    display: inline-block;
+  }
+
+.Ellipse-2-1 {
+    width: 87px;
+    height: 88px;
+    background-color: #0f65b1;
+    position: relative; top: 150px; left: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.Ellipse-2-2{
+    width: 87px;
+    height: 88px;
+    background-color: #897ac8;
+    position: relative; top: 150px; left: 185px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.Ellipse-2-3{
+    width: 87px;
+    height: 88px;
+    background-color: #a5cebb;
+    position: relative; top: 150px; left: 345px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+  .Polacy-s-ju-w-pierwszej{
+    width: 601.6px;
+    height: 54.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d4d4d;
+    position: relative; top: 80px; left: 40px;
+    
+  }
+
+  .W-Polsce-z-problemem-nadmiernej-masy {
+    width: 602px;
+    height: 51px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d4d4d;
+    position: relative; top: 190px; left: 40px;
+  }
+
+  .Co-czwarty-Polak-jest-otyy {
+    width: 250px;
+    height: 52px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; top: 260px; left: 370px;
+    display: inline-block;
+  }
+
+  .Otyo-kosztuje-Polsk-10-mld {
+    width: 480px;
+    height: 146px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; top: 310px; left: 190px;
+    display: inline-block;
+  }
+
+  .U-kobiet-z-BMI {
+    width: 480px;
+    height: 146px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4d4d;
+    position: relative; top: 370px; left: 190px;
+    display: inline-block;
+  }
+
+  .pCzwarty{
+    font-weight: bold;
+    color: #a5cebb;
+    display: inline-block;
+  }
+
+  .p10mld {
+    font-weight: bold;
+    color: #0f65b1;
+    display: inline-block;
+  }
+
+  .pU-kobiet{
+    font-weight: bold;
+    color: #897ac8;
+    display: inline-block;
+  }
+
+  .Kreska{
+    width: 595px;
+    height: 6px;
+    opacity: 0.66;
+    background-color: #ffffff;
+    position: relative; top: 110px; left: 40px;
+
+  }
+
+  .Kreska2{
+    width: 595px;
+    height: 6px;
+    opacity: 0.66;
+    background-color: #ffffff;
+    position: relative; top: 230px; left: 40px;
+
+  }
+
+  .Kreska3{
+    width: 595px;
+    height: 6px;
+    opacity: 0.66;
+    background-color: #ffffff;
+    position: relative; top: 290px; left: 40px;
+
+  }
+
+  .Kreska4{
+    width: 595px;
+    height: 6px;
+    opacity: 0.66;
+    background-color: #ffffff;
+    position: relative; top: 340px; left: 40px;
+  }
+
+  .GB {
+    width: 88px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative; top: 40px;
+  }
+
+  .CZ {
+    width: 87px;
+    height: 32px;
+    font-family: ITCAvantGardeGothicPro;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative; top: 40px;
+  }
+
+  .SK {
+    width: 88px;
+    height: 32px;
+    font-family: ITCAvantGardeGothicPro;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative; top: 40px;
+  }
+
+  .IRL {
+    width: 88px;
+    height: 32px;
+    font-family: ITCAvantGardeGothicPro;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative; top: 40px;
+  }
+
+  #wynikBMI {
+    width: 150px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffffff;
+    position: relative; left: 360px; top: 530px;
+
+  }
