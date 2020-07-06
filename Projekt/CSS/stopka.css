@@ -1,53 +1,78 @@
 .Stopka {
-    width: 1920px;
-    height: 107px;
+    margin: 0;
     background-color: #ffffff;
     
   }
 
-.Inicjatorzy {
-    width: 83px;
-    height: 29px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.79;
-    letter-spacing: normal;
-    text-align: left;
-    color: #4d4d4d;
-    position: relative; left: 650px; top: -15px;
-    display: inline-block;
-  }
-
-  .PTKD-logo_NOWE_tiff {
+  .Inicjatorzy-Img {
     width: 156.6px;
     height: 70px;
-    object-fit: contain;
-    position: relative; left: 650px; top: 15px;
-    
+    margin-left: 1%;
+    margin-right: 20%;
+    display: inline-block;
   }
 
-  .Mecenas-kampanii {
-    width: 143px;
-    height: 15px;
-    font-family: 'Times New Roman', Times, serif;
+  .Inicjatorzy-Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .napisInicjatorzy {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.79;
     letter-spacing: normal;
-    text-align: left;
     color: #4d4d4d;
-    position: relative; left: 800px; top: -15px;
+    margin-left: 25%;
     display: inline-block;
   }
 
-  .novo-nordisk {
+  .Mecenas-kampanii-Img {
+    width: 20%;
+    height: 80%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+
+  .Mecenas-kampanii-Img img {
     width: 97px;
     height: 69px;
     object-fit: contain;
-    position: relative; left: 800px; top: 15px;
+   
   }
+
+  .napisMecenas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #4d4d4d;
+    display: inline-block;
+  }
+
+
+  @media (max-width: 1500px) and (min-width: 1200px){
+    .napisMecenas{
+      margin-left: 30%;
+
+    }
+  }
+  @media (max-width: 1200px) and (min-width: 600px){
+    .napisMecenas{
+      margin-left: 25%;
+
+    }
+  }
+  @media (max-width: 600px){
+    .napisMecenas{
+      margin-left: 25%;
+    }
+  }
+

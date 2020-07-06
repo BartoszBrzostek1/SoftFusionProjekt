@@ -1,0 +1,390 @@
+.ImgBox-1 {
+    width: 70%;
+    height: 603px;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.ImgBox-1 img {
+    width: 100%;
+    height: 603px;
+    object-fit: none;
+    object-position: 55% 65%;
+}
+
+.ImgBox-2 {
+    width: 20%;
+    height: 603px;
+    margin-top: 3%;
+    margin-left: 1%;
+    display: inline-block;
+    
+}
+
+.ImgBox-2 img {
+    width: 100%;
+    height: 33%;
+    object-fit: cover;
+
+}
+
+
+.ImgBox-2 :hover {
+    opacity: 0.25;
+    color: #897ac8;
+   
+}
+
+
+.TextBox-1 {
+    width: 90%;
+    min-height: 450px;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #596060;
+
+}
+
+.TextBox-1 h2 {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f65b1;
+}
+
+.TextBox-1 h4 {
+    color: #494e4e;
+    height: auto;
+}
+
+.TextBox-1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #897ac8;
+}
+
+.ImgBox-3 {
+    width: 25%;
+    height: 450px;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.ImgBox-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.ImgBox-4 {
+    width: 25%;
+    height: 450px;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.ImgBox-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.ImgBox-5 {
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+}
+
+.ImgBox-5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.ImgBox-6 {
+    width: 25%;
+    height: 450px;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.ImgBox-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.ImgBox-7 {
+    width: 25%;
+    height: 450px;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.ImgBox-7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.Rec {
+    width: 100%;
+    height: 20%;
+    opacity: 0.85;
+    background-color: #897ac8;
+    z-index: 3;
+    position: relative;
+}
+
+.TextBox-2 {
+    width: 40%;
+    min-height: 450px;
+    margin-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #596060;
+    display: inline-block;
+    
+}
+
+.TextBox-2 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #897ac8;
+}
+
+.ImgBox-8 {
+    width: 40%;
+    height: 410px;
+    object-fit: contain;
+    display: inline-block;
+    margin-left: 10%;
+    
+}
+
+.ImgBox-8 img {
+    width: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: 55% 30%;
+}
+
+.ImgBox-9 {
+    width: 30%;
+    height: 564px;
+    display: inline-block;
+}
+
+.ImgBox-9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 70% 35%;
+}
+
+.ImgBox-10 {
+    width: 60%;
+    height: 564px;
+    display: inline-block;
+    margin-left: 2%;
+    
+}
+
+.ImgBox-10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*--------------Media Resp.--------------*/
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .ImgBox-8 {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .ImgBox-8 img {
+        width: 100%;
+        object-fit: none;
+        
+    }
+    .TextBox-2 {
+        width: 90%;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 750px;
+        margin-left: 5%;
+    }
+    
+
+}
+@media (max-width: 1200px) and (min-width: 600px) {
+
+    .ImgBox-8 {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .ImgBox-8 img {
+        width: 100%;
+        object-fit: none;
+        
+    }
+
+    .ImgBox-9 {
+        width: 100%;
+        margin-top: 7%;
+    }
+
+    .ImgBox-10 {
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+    }
+    .ImgBox-3, .ImgBox-4, .ImgBox-5{
+        
+        width: 100%;
+        margin-top: 5%;
+        
+    }
+
+    .ImgBox-6, .ImgBox-7 {
+       
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    .TextBox-2 {
+        width: 90%;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 750px;
+        margin-left: 5%;
+    }
+
+    .ImgBox-2{
+        width: 100%;
+    }
+
+    .ImgBox-2 img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 55% 35%;
+    }
+    .ImgBox-1{
+        width: 100%;
+    }
+
+    
+}
+@media (max-width: 600px) {
+    .ImgBox-1{
+        width: 100%;
+    }
+
+    .ImgBox-1 img {
+        width: 100%;
+        object-fit: none;
+    }
+
+    .ImgBox-2{
+        width: 100%;
+    }
+
+    .ImgBox-2 img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .ImgBox-8 {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .ImgBox-8 img {
+        width: 100%;
+        object-fit: none;
+        object-position: 45% 25%;
+    }
+
+    .TextBox-1{
+        width: 80%;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 1000px;
+    }
+
+    .TextBox-2 {
+        width: 90%;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 750px;
+        margin-left: 5%;
+    }
+
+    .ImgBox-3{
+        width: 100%;
+    }
+
+    .ImgBox-3, .ImgBox-4, .ImgBox-5{
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .ImgBox-6, .ImgBox-7 {
+        display: block;
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    .ImgBox-9 {
+        width: 100%;
+        margin-top: 7%;
+    }
+
+    .ImgBox-10 {
+        width: 100%;
+        display: block;
+        margin-left: 0%;
+    }
+
+}

@@ -9,12 +9,54 @@
 }
 
 body{
-  background-color: #eee8e6
+  background-color: #eee8e6;
+  padding: 0;
+  margin: 0;
+  
 }
 
+.to_beowe {
+  margin: 0;
+  background-color: #eee8e6;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.NavBox {
+  width: 80%;
+  color: #4d4d4d;
+  padding-top: 2%;
+  padding-left: 23%;
+}
+
+.NavBox ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+    
+}
+
+.NavBox ul li {
+  padding: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 1.4px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.Zaznaczenie{
+  border-bottom: 3px solid #897ac8;
+  width: 100%;
+} 
+
 .STRONA-GWNA {
-    width: 182px;
-    height: 27px;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 500;
@@ -24,44 +66,13 @@ body{
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: absolute; left: 682px; top: 60px;
-    
+    margin: 5%;
     
   }
 
-.O-CHOROBIE {
-    width: 129px;
-    height: 27px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: 1.4px;
-    text-align: left;
-    color: #4d4d4d;
-    position: absolute; left: 908px; top: 60px;
-    
-  }
 
-.DLA-PACJENTA {
-    width: 180px;
-    height: 27px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: 1.4px;
-    text-align: left;
-    color: #4d4d4d;
-    position: absolute; left: 1085px; top: 60px;
-  }
   .list {
-    width: 180px;
-    height: 27px;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 500;
@@ -71,7 +82,8 @@ body{
     letter-spacing: 1.4px;
     text-align: left;
     color: #4d4d4d;
-    position: absolute; left: 1085px; top: 60px;
+    position: absolute;
+    margin-right: 5%;
     cursor: pointer;
   }
 
@@ -110,42 +122,6 @@ body{
 
   }
 
-.SPECJALICI {
-    width: 121px;
-    height: 27px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: 1.4px;
-    text-align: left;
-    color: #4d4d4d;
-    position: absolute; left: 1293px; top: 60px;
-    
-  }
-
-.HISTORIE-PACJENTW {
-    width: 400px;
-    height: 27px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: 1.4px;
-    text-align: left;
-    color: #4d4d4d;
-    position: absolute; left: 1462px; top: 60px;
-    
-  }
-
-  .Zaznaczenie{
-    border-bottom: 3px solid #897ac8;
-  } 
-
   a {    
     text-decoration: none;
     }
@@ -165,3 +141,57 @@ body{
     color: #897ac8;
 
   }
+
+
+  @media (max-width: 1800px) and (min-width: 1500px){
+    .to_beowe{
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .NavBox{
+      width: 90%;
+      padding-left: 7%;
+    }
+  }
+  @media (max-width: 1500px) and (min-width: 1200px) {
+    .to_beowe{
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .NavBox{
+      width: 80%;
+      padding-left: 7%;
+    }
+}
+  @media (max-width: 1200px) and (min-width: 600px) {
+      .to_beowe{
+        width: 100%;
+        padding: 3%;
+      }
+      .NavBox{
+        width: 80%;
+        padding-left: 5%;
+      }
+  }
+  @media (max-width: 600px){
+    .to_beowe {
+      width: 100%;
+      padding: 0%;
+    }
+    body {width: 100%;}
+
+    .NavBox{
+      margin: 0px;
+      width: 60%;
+    }
+
+    .NavBox ul li {
+      display: block;
+    }
+    
+  }
+
+
+

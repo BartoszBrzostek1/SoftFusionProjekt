@@ -1,27 +1,50 @@
 .to_beowe {
-    width: 1920px;
-    height: 5253px;
+    margin: 0 auto;
+    padding: 0px;
     background-color: #eee8e6;
   }
 
 .Rectangle-7 {
-    width: 1462px;
+    width: 100%;
+    height: 603px;
+    opacity: 0.9;
+    float: left;
+    margin-top: 3%;
+    padding-left: 12%;
+}
+
+.Rectangle-7 img {
+    width: 90%;
     height: 603px;
     object-fit: none;
     object-position: 55% 65%;
-    opacity: 0.9;
-    position: absolute; left: 229px; top: 197px;
+}
+
+.Rectangle-9 {
+  width: 30%;
+  height: 1012px;
+  float: left;
+  margin-top: 3%;
+  background-color: #f8f2f0;
+}
+
+.Rectangle-9 img {
+  width: 499.8px;
+  height: 856.8px;
 }
 
 .container-1 {
-    width: 1920px;
-    height: 961px;
+    width: 50%;
+    min-height: 961px;
     background-color: #f8f2f0;
-    position: absolute; top: 846px;
+    float: left;
+    margin-top: 3%;
+    padding-left: 12%;
+    padding-top: 3%;
   }
 
-  .O-CHOROBIEnapis {
-    width: 400px;
+ .container-1 .O-CHOROBIEnapis {
+    
     height: 29px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -32,18 +55,12 @@
     letter-spacing: normal;
     text-align: left;
     color: #0f65b1;
-    position: absolute; left: 228px; top: 38px;
+    
   }
 
-.Rectangle-9 {
-    width: 499.8px;
-    height: 856.8px;
-    position: absolute; left: 1190px; top: 56px;
-}
-
-.pod-O-CHOROBIEnapis{
-    width: 943px;
-    height: 813px;
+.container-1 .pod-O-CHOROBIEnapis{
+    
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -53,69 +70,86 @@
     letter-spacing: normal;
     text-align: left;
     color: #757c7c;
-    position: absolute; left: 228px; top: 117px;
+    
   }
 
-  .pod-O-CHOROBIEnapis-2{
+  .container-1 .pod-O-CHOROBIEnapis .pod-O-CHOROBIEnapis-2{
     font-size: 20px;
     font-weight: 500;
     color: #897ac8;
 
   }
 
-  .pod-O-CHOROBIEnapis-3{
+ .container-1 .pod-O-CHOROBIEnapis .pod-O-CHOROBIEnapis-3{
     font-size: 20px;
     font-weight: 500;
     color: #596060;
   }
 
-  .shutterstock_1256 {
+  .ImgBox-1 {
     width: 378.6px;
     height: 450px;
-    object-fit: contain;
-    position: absolute; left: 229px; top: 1853px;
+    margin-top: 2.5%;
+    margin-left: 12%;
+    float: left;
+  }
+
+  .ImgBox-2 {
+    width: 378.6px;
+    height: 450px;
+    position: absolute; left: 40%; top: 1853px;
+  }
+
+  .ImgBox-3 {
+    width: 378.5px;
+    height: 450px;
+    position: absolute; left: 70%; top: 1853px;
   }
 
   .shutterstock_6916 {
-    width: 378.6px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    position: absolute; left: 756px; top: 1853px;
   }
 
   .shutterstock_4089 {
-    width: 378.5px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    position: absolute; left: 1310px; top: 1853px;
   }
 
   .Rectangle-29-1 {
-    width: 380px;
+    width: 100%;
     height: 101px;
     opacity: 0.85;
     background-color: #897ac8;
-    position: absolute; left: 228px; top: 2202px;
+
+  }
+
+  .ImgBox-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .Rectangle-29-2 {
-    width: 380px;
+    width: 100%;
     height: 101px;
     opacity: 0.85;
     background-color: #897ac8;
-    position: absolute; left: 755px; top: 2202px;
+    position: absolute; bottom: 0px;
   }
 
   .Rectangle-29-3 {
-    width: 380px;
+    width: 100%;
     height: 101px;
     opacity: 0.85;
     background-color: #897ac8;
-    position: absolute; left: 1310px; top: 2202px;
+    position: absolute; bottom: 0px;
   }
 
-  .WSKAZWKI-DOTYCZCE-WIADOMEGO-JEDZENIA {
-    width: 380px;
+  .ImgBox-1 .WSKAZWKI-DOTYCZCE-WIADOMEGO-JEDZENIA {
+    width: 100%;
     height: 66px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -126,11 +160,11 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    position: absolute; left: 228px; top: 2220px;
+    
   }
 
   .CZYNNIKI-POWODUJACE-OBJADANIE-SI {
-    width: 379px;
+    width: 100%;
     height: 79px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -141,11 +175,11 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    position: absolute; left: 756px; top: 2220px;
+    position: absolute; top: 84%;
   }
 
   .LISTA-ZAMIENNIKW-YWIENIOWYCH {
-    width: 435px;
+    width: 100%;
     height: 79px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -156,11 +190,11 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    position: absolute; left: 1282px; top: 2220px;
+    position: absolute; top: 84%;
   }
 
   .napisOtyo-do-czego-prowadzi {
-    width: 1920px;
+    
     height: 39px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
@@ -171,15 +205,51 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: auto; top: 2394px;
+    position: absolute; left: 36%; top: 2394px;
   }
+
+  .EliBox-1 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 242px; top: 2500px;
+  }
+
+  .EliBox-2 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 760px; top: 2500px;
+  }
+
+  .EliBox-3 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 1278px; top: 2500px;
+  }
+
+  .EliBox-4 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 242px; top: 3130px;
+  }
+
+  .EliBox-5 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 760px; top: 3130px;
+  }
+
+  .EliBox-6 {
+    width: 400px;
+    height: 500px;
+    position: absolute; left: 1278px; top: 3130px;
+  } 
 
   .Ellipse-1 {
     width: 120px;
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 382px; top: 2473px;
+    position: absolute; left: 140px; top: 0px;
   }
 
   .Ellipse-2 {
@@ -187,15 +257,15 @@
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 900px; top: 2473px;
-  }
+    position: absolute; left: 140px; top: 0px;
+    }
 
   .Ellipse-3 {
     width: 120px;
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 1418px; top: 2473px;
+    position: absolute; left: 140px; top: 0px;
   }
 
   .Ellipse-4 {
@@ -203,7 +273,7 @@
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 382px; top: 3097px;
+    position: absolute; left: 140px; top: 0px;
   }
 
   .Ellipse-5 {
@@ -211,7 +281,7 @@
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 900px; top: 3097px;
+    position: absolute; left: 140px; top: 0px;
   }
 
   .Ellipse-6 {
@@ -219,7 +289,7 @@
     height: 120px;
     background-color: #897ac8;
     border-radius: 50%;
-    position: absolute; left: 1418px; top: 3097px;
+    position: absolute; left: 140px; top: 0px;
   }
 
   .Choroby-ukadu-krenia {
@@ -234,7 +304,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 242px; top: 2620px;
+    position: absolute; top: 30%;
   }
 
   .Choroby-nowotworowe {
@@ -250,7 +320,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 760px; top: 2620px;
+    position: absolute; top: 30%;
   }
 
   .Cukrzyca-typu-2 {
@@ -265,7 +335,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 1278px; top: 2620px;
+    position: absolute; top: 30%;
   }
 
   .Schorzenia-pcherzyka-ciowego {
@@ -280,7 +350,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 242px; top: 3254px;
+    position: absolute; top: 30%;
   }
 
   .Zaburzenia-miesiczkowania {
@@ -296,7 +366,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 760px; top: 3254px;
+    position: absolute; top: 30%;
   }
 
   .Choroby-zwyrodnieniowe-staww {
@@ -311,7 +381,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #0f65b1;
-    position: absolute; left: 1278px; top: 3254px;
+    position: absolute; top: 30%;
   }
 
   .podChoroby-ukadu-krenia {
@@ -326,7 +396,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060;
-    position: absolute; left: 242px; top: 2698px;
+    position: absolute; top: 45%;
   }
 
   .podChoroby-nowotworowe {
@@ -341,7 +411,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060;
-    position: absolute; left: 760px; top: 2698px;
+    position: absolute; top: 45%;
   }
 
   .podCukrzyca-typu-2 {
@@ -356,7 +426,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060;
-    position: absolute; left: 1278px; top: 2698px;
+    position: absolute; top: 45%;
   }
 
   .podSchorzenia-pcherzyka-ciowego {
@@ -371,7 +441,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060;
-    position: absolute; left: 242px; top: 3332px;
+    position: absolute; top: 45%;
   }
 
   .podZaburzenia-miesiczkowania {
@@ -386,7 +456,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060;
-    position: absolute; left: 760px; top: 3332px;
+    position: absolute; top: 45%;
   }
 
   .podChoroby-zwyrodnieniowe-staww {
@@ -401,7 +471,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #596060; 
-    position: absolute; left: 1278px; top: 3332px;
+    position: absolute; top: 45%;
   }
 
   .Rectangle-15 {
@@ -409,7 +479,7 @@
     height: 564px;
     object-fit: none;
     object-position: 70% 70%;
-    position: absolute; left: 228px; top: 3586px;
+    position: absolute; left: 228px; top: 3596px;
   }
 
   .Rectangle-17 {
@@ -417,7 +487,7 @@
     height: 564px;
     object-fit: none;
     object-position: 70% 70%;
-    position: absolute; left: 734px; top: 3586px;
+    position: absolute; left: 734px; top: 3596px;
   }
 
   .napisEpidemiologia-otyo-w-liczbach {
@@ -432,7 +502,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #0f65b1;
-    position: absolute; left: 660px; top: 4241px;
+    position: absolute; left: 35%; top: 4251px;
   }
 
   .Sax_Hero_Setting_Office_Global_Female_1 {
@@ -440,7 +510,7 @@
     height: 699.1px;
     object-fit: none;
     object-position: 42% 58%;
-    position: absolute; left: 1028px; top: 4324px;
+    position: absolute; left: 1028px; top: 4334px;
   }
 
   .podEpidemiologia-otyo-w-liczbach-1 {
@@ -455,7 +525,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #757c7c;
-    position: absolute; left: 240px; top: 4320px;
+    position: absolute; left: 240px; top: 4330px;
 
   }
 
@@ -484,4 +554,46 @@
     opacity: 0.09;
     position: absolute; left: 40%; top: 30%;
     
+  }
+
+
+  @media (min-width: 1800px) {
+    .to_beowe, body {width: 1700px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 1800px) and (min-width: 1600px) {
+    .to_beowe, body {width: 1500px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 1600px) and (min-width: 1400px) {
+    .to_beowe, body {width: 1300px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 1400px) and (min-width: 1200px) {
+    .to_beowe, body {width: 1100px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 1200px) and (min-width: 1000px) {
+    .to_beowe, body {width: 900px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 1000px) and (min-width: 800px) {
+    .to_beowe, body {width: 700px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 65%;}
+  }
+  @media (max-width: 800px) and (min-width: 500px) {
+    .to_beowe, body {width: 400px;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 100%;}
+  }
+  @media (max-width: 500px){
+    .to_beowe, body {width: 90%;}
+    
+    .podEpidemiologia-otyo-w-liczbach-1 {width: 100%;}
   }
