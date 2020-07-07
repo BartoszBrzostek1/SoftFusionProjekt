@@ -1,0 +1,39 @@
+@mixin NaviMenu{
+    background-color: black;
+    padding: 10px 0;
+    color: red;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+
+    ol {
+        @include reset;
+        list-style-type: none;
+        height: 35px;
+        line-height: 200%;
+        display: inline-block;
+
+        li {
+            float: left; 
+            width: 150px;
+            height: 40px;
+            border-right: 1px solid red ;
+            border-left: 1px solid red ;
+            
+            &:hover{
+                background-color: silver;
+
+                a {
+                    color: #451717;
+                }
+                
+            }
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    }
+
+}
