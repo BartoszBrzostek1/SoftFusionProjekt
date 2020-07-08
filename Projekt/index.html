@@ -6,103 +6,39 @@
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
     <link href="CSS/indexStyle.css" rel="stylesheet" type="text/css">
     <link href="CSS/stopka.css" rel="stylesheet" type="text/css">
+    <script src="JS/function.js"></script>
   </head>
   <body>
-    <div class="to_beowe">
-        
-            <div class="STRONA-GWNA"><div class="Zaznaczenie">STRONA GŁÓWNA</div></div>
-            <div class="O-CHOROBIE"><a href="O_Chorobie.html">O CHOROBIE</a></div>
-            <div class="list">
-              DLA PACJENTA <div class="trojkatDoRozwijania"></div>
-              <div class="hover-list">
-                <div>
-                  <a href="Leczenie.html">LECZENIE</a>
-                </div>
-                <div>
-                  <a href="Materialy_Edukacyjne.html">MATERIAŁY EDUKACYJNE</a>
-                </div>
-              </div>
-            </div>
-            
-            <div class="SPECJALICI"><a href="">SPECJALICI</a></div>
-            <div class="HISTORIE-PACJENTW"><a href="">HISTORIE PACJENTÓW</a></div>
+    <div class="to_beowe">  
+      <div class="NavBox">
+        <ul>
+          <li><a href="index.html">STRONA GŁÓWNA</a></li>
+          <li><a href="O_Chorobie.html">O CHOROBIE</a></li>
+          <li><div class="Zaznaczenie">DLA PACJENTA</div></li>
+          <li><a href="">SPECJALICI</a></li>
+          <li><a href="">HISTORIE PACJENTÓW</a></li>
+        </ul>
+      </div>
 
-            <div class="Kalkulator-BMI">Kalkulator BMI</div>
-            <div class="Oblicz-swj-wskanik-BMI">Oblicz swój wskaźnik BMI</div>
+      <img src="img/rectangle-1.png" srcset="img/rectangle-1@2x.png 2x" class="Rectangle-1">
 
-            <img src="img/rectangle-1.png" srcset="img/rectangle-1@2x.png 2x" class="Rectangle-1">
-            
-            <form>
-                <div class="Pe">Płeć:
-                        <input type="radio" name="Plec" value="K" />K
-                        <input type="radio" name="Plec" value="M" />M
-                </div>
-            
-                <div class="Waga">Waga:
-                    <input type="text" id="waga" /> kg
-                </div>
-
-                <div class="Wzrost">Wzrost:
-                    <input type="text" id="wzrost" /> cm
-                </div>
-                <div class="Rectangle-4">
-                    
-                    <div class="OBLICZ-BMI"><input type="button" value="OBLICZ BMI" id="result" onclick="bmi()"></div>
-                </div>
-
-            </form>
-
-            <div class="Napis1">
-              Otyłość – jedno z największych zagrożeń dla zdrowia XXI wieku, ma bardzo szeroki
-              i dewastujący wpływ na nasze zdrowie, a liczba osób z nadwagą i otyłością w Polsce systematycznie rośnie.
-              Dla społeczeństwa jest to temat na tyle krępujący i wstydliwy, że często nie potrafimy go poruszyć.
-            
-            <div class="Napis2">
-                To powinno się zmienić! „Porozmawiajmy szczerze o otyłości” to kampania, która ma na celu:
-            </div>
-              <div class="Napis3">
-                  <li>uświadomić, że otyłość to choroba, która wymaga leczenia i kontaktu ze specjalistą,</li>
-                  <li>pomóc osobom chorym się otworzyć – bez poczucia stygmatyzacji,</li>
-                  <li>zachęcić pacjentów i pracowników służby zdrowia do rozmowy o leczeniu,</li>
-                  <li>edukację społeczeństwa, aby nauczyło się poruszać ten delikatny temat i lepiej rozumieć &nbsp;&nbsp;&nbsp;&nbsp; pacjentów.</li>
-                    <br>
-                  Ludzie cierpiący na otyłość często spotykają się z brakiem zrozumienia
-                  ze strony swojego otoczenia, a mity, które krążą wokół tej choroby, sprawiają,
-                  że czują się wykluczeni.
-              </div>
-              <div class="Napis4">
-                  Nie można bagatelizować otyłości i godzić się z nią, ani pozostawiać ludzi chorych samych sobie. Jak więc powinniśmy rozmawiać o otyłości...? 
-                  Bądź i ucz się razem z nami!
-              </div>
-              <div class="Napis5">
-                Otyłość to choroba,<br> którą można leczyć! 
-              </div>
-            </div>
-            
-            
-            <div class="Rectangle-51">
-              <div class="Ellipse-1"><div class="GB">GB</div></div>
-              <div class="Ellipse-2"><div class="CZ">CZ</div></div>
-              <div class="Ellipse-3"><div class="SK">SK</div></div>
-              <div class="Ellipse-4"><div class="IRL">IRL</div></div>
-              <div class="Polacy-s-ju-w-pierwszej">Polacy są już w pierwszej piątce najbardziej otyłych narodów w Europie.</div>
-              <div class="Kreska"></div>
-              <div class="Ellipse-2-1"></div>
-              <div class="Ellipse-2-2"></div>
-              <div class="Ellipse-2-3"></div>
-              <div class="W-Polsce-z-problemem-nadmiernej-masy">W Polsce z problemem nadmiernej masy ciała (nadwagą) zmaga się już 62% mężczyzn i 51% kobiet i 26% dzieci.</div>
-              <div class="Kreska2"></div>
-              <div class="Co-czwarty-Polak-jest-otyy">Co <div class="pCzwarty">czwarty</div> Polak jest otyły.</div>
-              <div class="Kreska3"></div>
-              <div class="Otyo-kosztuje-Polsk-10-mld">Otyłość kosztuje Polskę <div class="p10mld">10 mld zł rocznie z budżetu NFZ i ZUS</div>. 
-                  (Choroby będące powikłaniem otyłości - czyli schorzenia układu krążenia i ruchu oraz nowotwory -
-                   pochłaniają 10 mld zł rocznie z budżetu NFZ i ZUS)</div>
-              <div class="Kreska4"></div>
-              <div class="U-kobiet-z-BMI">U kobiet z BMI >35kg/m2 ryzyko <div class="pU-kobiet">zachorowania na cukrzycę wzrasta 90-krotnie!</div></div>
-            </div>
+      <form class="kalBMI" name="kalBMI">
+          <div class="kalBMI__napisGlowny">Kalkurator BMI</div>
+          <br>
+          <div class="kalBMI__napisPoboczny">Oblicz swój wskaźnik BMI</div>   
+          <br>
+          <div class="kalBMI__napisPoboczny">Płeć: 
+            <input type="radio" value="K" />K
+            <input type="radio" value="M" />M
+          </div>
+          <div class="kalBMI__napisPoboczny">Waga: &nbsp;&nbsp;<input type="text" id="waga" name="waga" class="kalBMI__inputText"></div>
+          <div class="kalBMI__napisPoboczny">Wzrost: <input type="text" id="wzrost" name="wzrost" class="kalBMI__inputText" ></div>
+          <input type="button" value="OBLICZ BMI" onClick="wynikBMI()" class="kalBMI__przycisk">
+          <div class="kalBMI__napisGlowny kalBMI__napisGlowny--wynik">Twoje BMI to:</div> <input type="text" name="bmiwynik" class="kalBMI__wynikBMI" disabled>
+          <input type="text" name="odp" size="25" class="kalBMI__opinia" disabled>
+      </form>
 
     </div>
-    <script src="JS/function.js"></script>
   </body>
 
 </html>
