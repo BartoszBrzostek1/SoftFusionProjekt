@@ -1,0 +1,201 @@
+.Rectangle-7 {
+    width: 90%;
+    height: 603px;
+    opacity: 0.9;
+    float: left;
+
+}
+
+.Rectangle-7 img {
+    width: 100%;
+    height: 603px;
+    object-fit: none;
+    object-position: 55% 65%;
+}
+
+.Blok {
+    background-color: #fdf6f3;
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: -14%;
+    margin-right: -22%;
+    padding-left: 14%;
+    padding-top: 3%;
+    
+}
+
+.BlokText {
+    width: 55%;
+    float: left;
+    margin-right: 60px;
+    &__glownyNapis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0f65b1;
+    }
+    &__pobocznyNapis {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #596060;
+        &--czarny {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &--fioletowy{
+            font-size: 20px;
+            color: #897ac8;
+        }
+        ul {
+            list-style-position: outside;
+        }
+    }
+}
+
+.BlokImg {
+    float: left;
+    width: 499.8px;
+    height: 856.8px;
+    margin-bottom: 50px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.ImgBox1 {
+    width: 378.6px;
+    height: 450px;
+    float: left;
+    background-image: url("../img/shutterstock_1256n.png");
+    object-fit: none;
+    margin: 10px;
+    margin-top: 50px;
+    margin-right: 160px;
+    &__path {
+        width: 100%;
+        height: 20%;
+        opacity: 0.8;
+        background-color: #897ac8;
+        margin-top: 90%;
+        padding-top: 20px;
+        &--napis {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+}
+
+.ImgBox2 {
+    width: 378.6px;
+    height: 450px;
+    float: left;
+    background-image: url("../img/shutterstock_6916n.png");
+    object-fit: none;
+    margin: 10px;
+    margin-top: 50px;
+    margin-right: 160px;
+    &__path {
+        width: 100%;
+        height: 20%;
+        opacity: 0.8;
+        background-color: #897ac8;
+        margin-top: 90%;
+        padding-top: 20px;
+        &--napis {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+}
+
+.ImgBox3 {
+    width: 378.6px;
+    height: 450px;
+    float: left;
+    background-image: url("../img/shutterstock_4089n.png");
+    object-fit: none;
+    margin: 10px;
+    margin-top: 50px;
+    &__path {
+        width: 100%;
+        height: 20%;
+        opacity: 0.8;
+        background-color: #897ac8;
+        margin-top: 90%;
+        padding-top: 20px;
+        &--napis {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+}
+
+@media (max-width: 1243px) and (min-width: 600px){
+    .BlokText{
+        width: 90%;
+    }
+    .BlokImg{
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .BlokText{
+        width: 100%;
+    }
+    .BlokText__glownyNapis
+    {
+        text-align: center;
+    }
+
+    .BlokText__pobocznyNapis
+    {
+        text-align: center;
+    }
+
+    .Rectangle-7 {
+        width: 100%;
+    }
+}

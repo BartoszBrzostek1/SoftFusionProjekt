@@ -1,40 +1,29 @@
+<HTML>
+  <HEAD>
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+  <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
 
-<style>
-
-.list {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  border: 1px solid red;
-  cursor: pointer;
-}
-.list:hover .hover-list {
-  max-height: 60px;
-}
-.hover-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  max-height: 0;
-  overflow: hidden;
-  transition: all .25s ease-in;
-}
-.hover-list div {
-  width: 65px;
-  height: 20px;
-  border: 1px solid blue;
-}
-</style>
-
-    <div class="list">
-        Hover me
-        <div class="hover-list">
-          <div>123</div>
-          <div>123</div>
-          <div>123</div>
-        </div>
-      </div>
+  function zmien_strone(index)
+  {
+    if (document.odnosniki.lista[index].value != "brak"){
+        location.href = document.odnosniki.lista[index].value;
+    }
+  }
+ 
+  </SCRIPT>
+  </HEAD>
+  <BODY>
+  <H2>
+  <FORM NAME="odnosniki">
+  <SELECT NAME="lista"
+    onChange="zmien_strone(lista.selectedIndex)"
+    SIZE = "1">
+    <OPTION VALUE="brak">Wybierz stronę
+    <OPTION VALUE="http://helion.pl">Wydawnictwo Helion
+    <OPTION VALUE="http://marcinlis.com">MarcinLis.COM
+    <OPTION VALUE="http://www.ebay.com">Aukcje eBay
+  </SELECT>
+  </FORM>
+  </H2>
+  </BODY>
+  </HTML>

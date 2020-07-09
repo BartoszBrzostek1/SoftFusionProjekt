@@ -10,8 +10,8 @@
 
 body{
   background-color: #eee8e6;
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
   
 }
 
@@ -19,24 +19,26 @@ body{
   margin: 0;
   background-color: #eee8e6;
   padding-left: 10%;
-  padding-right: 10%;
 }
 
 .NavBox {
-  width: 80%;
+  width: 77%;
   color: #4d4d4d;
   padding-top: 2%;
   padding-left: 23%;
+  height: 150px;
 }
 
 .NavBox ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
+  display: inline-block;
+  text-align: center;
     
 }
 
-.NavBox ul li {
+.NavBox ul > li {
   padding: 16px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
@@ -45,9 +47,34 @@ body{
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 1.4px;
-  text-align: center;
-  display: inline-block;
+  float: left;
   
+}
+
+.NavBox ul > li > ol {
+  width: 140px;
+  height: 107px;
+  opacity: 0.7;
+  background-color: #ffffff;
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0;
+  padding-top: 7px;
+  margin: 0;
+  display: none;
+}
+
+.NavBox ul > li > ol > li {
+  margin: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid #897ac8;
+}
+
+
+ul > li:hover > ol {
+  display: block;
 }
 
 .Zaznaczenie{
@@ -146,8 +173,7 @@ body{
   @media (max-width: 1800px) and (min-width: 1500px){
     .to_beowe{
       width: 100%;
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 8%;
     }
     .NavBox{
       width: 90%;
@@ -157,8 +183,7 @@ body{
   @media (max-width: 1500px) and (min-width: 1200px) {
     .to_beowe{
       width: 100%;
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 7%;
     }
     .NavBox{
       width: 80%;
@@ -167,12 +192,19 @@ body{
 }
   @media (max-width: 1200px) and (min-width: 600px) {
       .to_beowe{
-        width: 100%;
+        width: 95%;
         padding: 3%;
       }
       .NavBox{
-        width: 80%;
-        padding-left: 5%;
+        margin: 0px;
+        margin-bottom: 250px;
+        width: 100%;
+        padding-left: 0;
+      }
+  
+      .NavBox ul li {
+        display: block;
+        float: left;
       }
   }
   @media (max-width: 600px){
@@ -184,11 +216,14 @@ body{
 
     .NavBox{
       margin: 0px;
+      margin-bottom: 250px;
       width: 60%;
+      padding-left: 0;
     }
 
     .NavBox ul li {
       display: block;
+      float: left;
     }
     
   }
