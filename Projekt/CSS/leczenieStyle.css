@@ -173,6 +173,10 @@
     
 }
 
+.TextBox-2 ul {
+    list-style-position: outside;
+}
+
 .TextBox-2 p {
     font-size: 20px;
     font-weight: 500;
@@ -227,7 +231,7 @@
 
 @media (max-width: 1500px) and (min-width: 1200px) {
     .ImgBox-8 {
-        width: 100%;
+        width: 90%;
         margin: 0%;
     }
 
@@ -237,7 +241,7 @@
         
     }
     .TextBox-2 {
-        width: 90%;
+        width: 80%;
         text-align: center;
         align-self: center;
         margin-left: auto;
@@ -286,7 +290,7 @@
     }
 
     .TextBox-2 {
-        width: 90%;
+        width: 80%;
         text-align: center;
         align-self: center;
         margin-left: auto;
