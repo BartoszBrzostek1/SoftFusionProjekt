@@ -182,6 +182,112 @@
   color: #ffffff;
 }
 
+.napisOtylosc {
+  width: 85%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0f65b1;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 10px 0;
+  float: left;
+}
+
+.BoxKolko1 {
+  width: 400px;
+  height: 555px;
+  float: left;
+  margin-right: 8%;
+  margin-bottom: 70px;
+}
+
+.BoxKolko1__kolko {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #897ac8;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BoxKolko1__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #596060;
+}
+
+.BoxKolko1__text--niebieski {
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0f65b1;
+}
+
+.GlownyImgBlok {
+  float: left;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.ImgBlok1 {
+  width: 492px;
+  height: 564px;
+  float: left;
+}
+
+.ImgBlok1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+  -o-object-position: 70% 35%;
+     object-position: 70% 35%;
+}
+
+.ImgBlok2 {
+  width: 956px;
+  height: 564px;
+  float: left;
+}
+
+.ImgBlok2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ImgBlok3 {
+  width: 640px;
+  height: 550px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.ImgBlok3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 1243px) and (min-width: 600px) {
   .BlokText {
     width: 90%;
@@ -189,6 +295,16 @@
   .BlokImg {
     float: none;
     display: inline-block;
+  }
+  .BoxKolko1 {
+    width: 90%;
+    height: 400px;
+  }
+  .napisOtylosc {
+    width: 90%;
+  }
+  .ImgBlok2 {
+    width: 80%;
   }
 }
 
@@ -203,6 +319,18 @@
     text-align: center;
   }
   .Rectangle-7 {
+    width: 100%;
+  }
+  .ImgBox1, .ImgBox2, .ImgBox3 {
+    margin-left: 70px;
+  }
+  .napisOtylosc, .BoxKolko1 {
+    width: 100%;
+  }
+  .ImgBlok2 {
+    width: 100%;
+  }
+  .ImgBlok3 {
     width: 100%;
   }
 }

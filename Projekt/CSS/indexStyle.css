@@ -98,4 +98,259 @@
   margin-top: 10px;
   border: none;
 }
+
+.Statystyki {
+  margin-top: 60px;
+  background-color: #fdf6f3;
+  width: 45%;
+  float: left;
+}
+
+.Statystyki__miejsce {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.Statystyki__napis {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  float: left;
+  color: #4d4d4d;
+  width: 95%;
+}
+
+.Statystyki__napis--niebieski {
+  font-weight: bold;
+  color: #0f65b1;
+  float: none;
+}
+
+.Statystyki__napis--fioletowy {
+  font-weight: 300;
+  color: #897ac8;
+}
+
+.Statystyki__kolo {
+  width: 87px;
+  height: 88px;
+  border-radius: 50%;
+  float: left;
+  margin: 30px;
+}
+
+.Statystyki__kolo--zielone {
+  background-color: #a5cebb;
+}
+
+.Statystyki__kolo--niebieskie {
+  background-color: #0f65b1;
+}
+
+.Statystyki__kolo--fioletowe {
+  background-color: #897ac8;
+}
+
+.Statystyki__kreska {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 6px;
+  background-color: #ffffff;
+  float: left;
+}
+
+.Statystyki__procenty {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  float: left;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+.Statystyki__procenty--niebieskie {
+  color: #0f65b1;
+}
+
+.Statystyki__procenty--fioletowe {
+  color: #897ac8;
+}
+
+.Statystyki__procenty--zielone {
+  color: #a5cebb;
+}
+
+.Statystyki__napis2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  float: left;
+  margin-top: 55px;
+}
+
+.Statystyki__napis2--zielony {
+  font-weight: bold;
+  color: #a5cebb;
+}
+
+.TextBlok {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+  width: 40%;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.TextBlok__napisGlowny {
+  margin-top: 55px;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0f65b1;
+}
+
+.TextBlok__napisPoboczny {
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.TextBlok__napisPoboczny--czarny {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.TextBlok__napisPoboczny--fioletowyMaly {
+  color: #897ac8;
+}
+
+.TextBlok__napisPoboczny--fioletowyDuzy {
+  font-size: 20px;
+  font-weight: 500;
+  color: #897ac8;
+}
+
+.TextBlok__napisPoboczny ul {
+  list-style-position: outside;
+}
+
+@media (max-width: 1590px) and (min-width: 1243px) {
+  .Rectangle-1 {
+    width: 100%;
+  }
+  .kalBMI {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .Statystyki {
+    width: 50%;
+    display: inline-block;
+  }
+  .Statystyki__miejsce {
+    width: 100%;
+  }
+  .Statystyki__procenty {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Statystyki__napis2 {
+    float: left;
+    width: 5%;
+    margin-left: 80px;
+  }
+  .TextBlok {
+    width: 78%;
+  }
+  .TextBlok__napisPoboczny {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1243px) and (min-width: 600px) {
+  .Rectangle-1 {
+    width: 100%;
+  }
+  .kalBMI {
+    margin-left: 20px;
+  }
+  .Statystyki {
+    width: 100%;
+  }
+  .Statystyki__miejsce {
+    width: 100%;
+  }
+  .Statystyki__procenty {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Statystyki__napis2 {
+    float: left;
+    width: 5%;
+    margin-left: 80px;
+  }
+  .TextBlok {
+    width: 78%;
+  }
+  .TextBlok__napisPoboczny {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .Rectangle-1 {
+    width: 100%;
+  }
+  .kalBMI {
+    margin-left: 20px;
+  }
+  .Statystyki {
+    width: 100%;
+  }
+  .Statystyki__miejsce {
+    width: 100%;
+  }
+  .Statystyki__procenty {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Statystyki__napis2 {
+    float: left;
+    width: 5%;
+    margin-left: 80px;
+  }
+  .TextBlok {
+    width: 78%;
+  }
+  .TextBlok__napisPoboczny {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=indexStyle.css.map */
