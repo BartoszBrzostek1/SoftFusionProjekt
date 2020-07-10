@@ -7,13 +7,13 @@ wynikBMI = () => {
    {
       const wynik =  a/((b/100) * (b/100));
       if(wynik < 18.5){
-         document.kalBMI.odp.value = "Poniżej normy"
+         document.kalBMI.odp.value = "Poniżej warrtości prawidłowej, jedz więcej i zdrowiej."
       }
       if(wynik > 18.5 && wynik < 25){
-         document.kalBMI.odp.value = "Norma"
+         document.kalBMI.odp.value = "Brawo! Jest to wartość prawidłowa."
       }
       if(wynik > 25){
-         document.kalBMI.odp.value = "Powyżej normy"
+         document.kalBMI.odp.value = "Powyżej wartości prawidłowej, zalecamy schudnąć."
       }
 
       document.kalBMI.bmiwynik.value = wynik.toFixed(2);
